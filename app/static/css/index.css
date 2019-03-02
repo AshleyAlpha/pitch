@@ -9,13 +9,15 @@ h1{
 #mamie{
   background-color: snow;
   color:teal;
-  font-size: 20px;
+  font-size: 15px;
+  
+  
   
 }
 .nini{
-  background-color: olive;
-
+  background-color: snow;
+  font-size: 20px;
+  margin-left: 50px;
   text-align: center;
-  
 
 }
