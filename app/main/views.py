@@ -68,7 +68,6 @@ def comments(id):
 
         db.session.add(new_comment)
         db.session.commit()
-
     comment=Comment.query.filter_by(pitches_id=id).all()
 
     return render_template('comment.html',comment=comment,form = form)  
